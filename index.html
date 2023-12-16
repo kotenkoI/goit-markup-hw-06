@@ -49,7 +49,7 @@
         </button>
 
         <address class="address" id="mail_tel">
-          <ul class="header-items">
+          <ul class="">
             <li>
               <a class="address-link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
@@ -68,19 +68,19 @@
     <main>
       <!-- Hero Section -->
 
-      <!-- <section class="section-one hero">
+      <section class="section-one hero">
         <div class="container container-section-one">
           <h1 class="slogan">Effective Solutions for Your Business</h1>
           <button type="button" class="button-style">Order Service</button>
         </div>
-      </section> -->
+      </section>
 
       <!-- Advantages Section -->
 
-      <!-- <section class="section-two">
+      <section class="section-two">
         <div class="container">
           <h2 hidden class="visually-hidden">Advantages</h2>
-          <ul class="section-two-items">
+          <ul class="section-two-items advantages-section">
             <li class="section-two-items-descr">
               <div class="section-two-icon">
                 <svg width="64" height="64">
@@ -131,23 +131,25 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!-- Team Section -->
 
-      <!-- <section class="section-three">
-        <div class="container">
+      <section class="section-three">
+        <div class="container our-team-container">
           <h2 class="slogan-descr">Our Team</h2>
           <ul class="section-three-items">
             <li class="card-info">
               <img
-                src="./images/img-1.jpg"
+                class="our-team-photo"
+                srcset="./images/mark@1x.jpg 1x, ./images/mark@2x.jpg 2x"
+                src="./images/mark@1x.jpg"
                 alt="Усміхнений чоловік"
                 width="264"
               />
               <div class="employee">
-                <h3 class="features-subtitle">Mark Guerrero</h3>
-                <p class="features-descr">Product Designer</p>
+                <h3 class="features-subtitle-person">Mark Guerrero</h3>
+                <p class="features-descr-position">Product Designer</p>
                 <ul class="social-links">
                   <li class="social-links-item">
                     <a
@@ -155,7 +157,7 @@
                       href="https://www.instagram.com/"
                       target="_blank"
                     >
-                      <svg class="social-link" width="16" height="16">
+                      <svg class="social-link" width="12" height="12">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
@@ -166,7 +168,7 @@
                       href="https://twitter.com/"
                       target="_blank"
                     >
-                      <svg class="social-link" width="16" height="16">
+                      <svg class="social-link" width="12" height="12">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
@@ -177,7 +179,7 @@
                       href="https://www.facebook.com/"
                       target="_blank"
                     >
-                      <svg class="social-link" width="16" height="16">
+                      <svg class="social-link" width="12" height="12">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
@@ -188,7 +190,7 @@
                       href="https://www.linkedin.com/"
                       target="_blank"
                     >
-                      <svg class="social-link" width="16" height="16">
+                      <svg class="social-link" width="12" height="12">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -199,13 +201,15 @@
 
             <li class="card-info">
               <img
-                src="./images/img-2.jpg"
+                class="our-team-photo"
+                srcset="./images/tom@1x.jpg 1x, ./images/tom@2x.jpg 2x"
+                src="./images/tom@1x.jpg"
                 alt="Усміхнений чоловік"
                 width="264"
               />
               <div class="employee">
-                <h3 class="features-subtitle">Tom Ford</h3>
-                <p class="features-descr">Frontend Developer</p>
+                <h3 class="features-subtitle-person">Tom Ford</h3>
+                <p class="features-descr-position">Frontend Developer</p>
                 <ul class="social-links">
                   <li class="social-links-item">
                     <a
@@ -213,7 +217,7 @@
                       href="https://www.instagram.com/"
                       target="_blank"
                     >
-                      <svg class="social-link" width="16" height="16">
+                      <svg class="social-link" width="12" height="12">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
@@ -224,7 +228,7 @@
                       href="https://twitter.com/"
                       target="_blank"
                     >
-                      <svg class="social-link" width="16" height="16">
+                      <svg class="social-link" width="12" height="12">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
@@ -235,7 +239,7 @@
                       href="https://www.facebook.com/"
                       target="_blank"
                     >
-                      <svg class="social-link" width="16" height="16">
+                      <svg class="social-link" width="12" height="12">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
@@ -246,61 +250,7 @@
                       href="https://www.linkedin.com/"
                       target="_blank"
                     >
-                      <svg class="social-link" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-
-            <li class="card-info">
-              <img src="./images/img-3.jpg" alt="Усміхнена жінка" width="264" />
-              <div class="employee">
-                <h3 class="features-subtitle">Camila Garcia</h3>
-                <p class="features-descr">Marketing</p>
-                <ul class="social-links">
-                  <li class="social-links-item">
-                    <a
-                      class="social-links-link"
-                      href="https://www.instagram.com/"
-                      target="_blank"
-                    >
-                      <svg class="social-link" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-links-item">
-                    <a
-                      class="social-links-link"
-                      href="https://twitter.com/"
-                      target="_blank"
-                    >
-                      <svg class="social-link" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-links-item">
-                    <a
-                      class="social-links-link"
-                      href="https://www.facebook.com/"
-                      target="_blank"
-                    >
-                      <svg class="social-link" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-links-item">
-                    <a
-                      class="social-links-link"
-                      href="https://www.linkedin.com/"
-                      target="_blank"
-                    >
-                      <svg class="social-link" width="16" height="16">
+                      <svg class="social-link" width="12" height="12">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -311,13 +261,15 @@
 
             <li class="card-info">
               <img
-                src="./images/img-4.jpg"
-                alt="Усміхнений чоловік"
+                class="our-team-photo"
+                srcset="./images/camila@1x.jpg 1x, ./images/camila@2x.jpg 2x"
+                src="./images/camila@1x.jpg"
+                alt="Усміхнена жінка"
                 width="264"
               />
               <div class="employee">
-                <h3 class="features-subtitle">Daniel Wilson</h3>
-                <p class="features-descr">UI Designer</p>
+                <h3 class="features-subtitle-person">Camila Garcia</h3>
+                <p class="features-descr-position">Marketing</p>
                 <ul class="social-links">
                   <li class="social-links-item">
                     <a
@@ -325,7 +277,7 @@
                       href="https://www.instagram.com/"
                       target="_blank"
                     >
-                      <svg class="social-link" width="16" height="16">
+                      <svg class="social-link" width="12" height="12">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
@@ -336,7 +288,7 @@
                       href="https://twitter.com/"
                       target="_blank"
                     >
-                      <svg class="social-link" width="16" height="16">
+                      <svg class="social-link" width="12" height="12">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
@@ -347,7 +299,7 @@
                       href="https://www.facebook.com/"
                       target="_blank"
                     >
-                      <svg class="social-link" width="16" height="16">
+                      <svg class="social-link" width="12" height="12">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
@@ -358,7 +310,67 @@
                       href="https://www.linkedin.com/"
                       target="_blank"
                     >
-                      <svg class="social-link" width="16" height="16">
+                      <svg class="social-link" width="12" height="12">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="card-info">
+              <img
+                class="our-team-photo"
+                srcset="./images/daniel@1x.jpg 1x, ./images/daniel@2x.jpg 2x"
+                src="./images/daniel@1x.jpg"
+                alt="Усміхнений чоловік"
+                width="264"
+              />
+              <div class="employee">
+                <h3 class="features-subtitle-person">Daniel Wilson</h3>
+                <p class="features-descr-position">UI Designer</p>
+                <ul class="social-links">
+                  <li class="social-links-item">
+                    <a
+                      class="social-links-link"
+                      href="https://www.instagram.com/"
+                      target="_blank"
+                    >
+                      <svg class="social-link" width="12" height="12">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-links-item">
+                    <a
+                      class="social-links-link"
+                      href="https://twitter.com/"
+                      target="_blank"
+                    >
+                      <svg class="social-link" width="12" height="12">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-links-item">
+                    <a
+                      class="social-links-link"
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                    >
+                      <svg class="social-link" width="12" height="12">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-links-item">
+                    <a
+                      class="social-links-link"
+                      href="https://www.linkedin.com/"
+                      target="_blank"
+                    >
+                      <svg class="social-link" width="12" height="12">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -368,24 +380,47 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!-- Our Portfolio -->
 
-      <!-- <section class="section-four">
+      <section class="section-four">
         <div class="container">
           <h2 class="slogan-descr">Our Portfolio</h2>
 
           <ul class="section-four-items">
             <li class="card-info-section-four">
               <div class="section-four-over">
-                <img
-                  class="section-four-image"
-                  src="./images/img-5.jpg"
-                  alt="Розділи банківського додатку"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/bank-app-desc@1x.jpg 1x,
+                      ./images/bank-app-desc@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/bank-app-tablet@1x.jpg 1x,
+                      ./images/bank-app-tablet@1x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/bank-app-mobile@1x.jpg 1x,
+                      ./images/bank-app-mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+
+                  <img
+                    src="./images/bank-app-mobile@1x.jpg"
+                    alt="Розділи банківського додатку"
+                  />
+                </picture>
 
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -394,19 +429,42 @@
                 </p>
               </div>
               <div class="app">
-                <h3 class="features-subtitle">Banking App</h3>
+                <h3 class="features-subtitle-four">Banking App</h3>
                 <p class="features-descr">App</p>
               </div>
             </li>
 
             <li class="card-info-section-four">
               <div class="section-four-over">
-                <img
-                  src="./images/img-6.jpg"
-                  alt="Смартфон та термінал"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/cash-desc@1x.jpg 1x,
+                      ./images/cash-desc@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/cash-tablet@1x.jpg 1x,
+                      ./images/cash-tablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/cash-mobile@1x.jpg 1x,
+                      ./images/cash-mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    src="./images/cash-mobile@1x.jpg"
+                    alt="Смартфон та термінал"
+                  />
+                </picture>
 
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -415,19 +473,42 @@
                 </p>
               </div>
               <div class="app">
-                <h3 class="features-subtitle">Cashless Payment</h3>
+                <h3 class="features-subtitle-four">Cashless Payment</h3>
                 <p class="features-descr">Marketing</p>
               </div>
             </li>
 
             <li class="card-info-section-four">
               <div class="section-four-over">
-                <img
-                  src="./images/img-7.jpg"
-                  alt="Екран ноутбука та смартфона"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/meditation-desc@1x.jpg 1x,
+                      ./images/meditation-desc@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/meditation-tablet@1x.jpg 1x,
+                      ./images/meditation-tablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/meditation-mobile@1x.jpg 1x,
+                      ./images/meditation-mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    src="./images/meditation-mobile@1x.jpg"
+                    alt="Екран ноутбука та смартфона"
+                  />
+                </picture>
 
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -436,19 +517,42 @@
                 </p>
               </div>
               <div class="app">
-                <h3 class="features-subtitle">Meditation App</h3>
+                <h3 class="features-subtitle-four">Meditation App</h3>
                 <p class="features-descr">App</p>
               </div>
             </li>
 
             <li class="card-info-section-four">
               <div class="section-four-over">
-                <img
-                  src="./images/img-8.jpg"
-                  alt="Кермо автомобіля з навігацією"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/taxi-desc@1x.jpg 1x,
+                      ./images/taxi-desc@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/taxi-tablet@1x.jpg 1x,
+                      ./images/taxi-tablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/taxi-mobile@1x.jpg 1x,
+                      ./images/taxi-mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    src="./images/taxi-mobile@1x.jpg"
+                    alt="Кермо автомобіля з навігацією"
+                  />
+                </picture>
 
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -457,19 +561,42 @@
                 </p>
               </div>
               <div class="app">
-                <h3 class="features-subtitle">Taxi Service</h3>
+                <h3 class="features-subtitle-four">Taxi Service</h3>
                 <p class="features-descr">Marketing</p>
               </div>
             </li>
 
             <li class="card-info-section-four">
               <div class="section-four-over">
-                <img
-                  src="./images/img-9.jpg"
-                  alt="Екран смартфона"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/screen-desc@1x.jpg 1x,
+                      ./images/screen-desc@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/screen-tablet@1x.jpg 1x,
+                      ./images/screen-tablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/screen-mobile@1x.jpg 1x,
+                      ./images/screen-mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    src="./images/screen-mobile@1x.jpg"
+                    alt="Екран смартфона"
+                  />
+                </picture>
 
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -478,19 +605,43 @@
                 </p>
               </div>
               <div class="app">
-                <h3 class="features-subtitle">Screen Illustrations</h3>
+                <h3 class="features-subtitle-four">Screen Illustrations</h3>
                 <p class="features-descr">Design</p>
               </div>
             </li>
 
             <li class="card-info-section-four">
               <div class="section-four-over">
-                <img
-                  src="./images/img-10.jpg"
-                  alt="Дівчина в навушниках"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/courses-desc@1x.jpg 1x,
+                      ./images/courses-desc@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/courses-tablet@1x.jpg 1x,
+                      ./images/courses-tablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/courses-mobile@1x.jpg 1x,
+                      ./images/courses-mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+
+                  <img
+                    src="./images/courses-mobile@1x.jpg"
+                    alt="Дівчина в навушниках"
+                  />
+                </picture>
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -498,16 +649,16 @@
                 </p>
               </div>
               <div class="app">
-                <h3 class="features-subtitle">Online Courses</h3>
+                <h3 class="features-subtitle-four">Online Courses</h3>
                 <p class="features-descr">Marketing</p>
               </div>
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
 
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container footer-container">
         <div class="logo-footer-container">
           <a class="logo-footer" href="./index.html"
@@ -576,18 +727,18 @@
             </label>
             <button class="footer-submite" type="submit">
               Subscribe
-              <svg class="social-link" width="24" height="24">
+              <svg class="social-link-subscribe" width="24" height="24">
                 <use href="./images/icons.svg#icon-telegram"></use>
               </svg>
             </button>
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
 
     <!-- BACKDROP  WITH MODAL WINDOW -->
 
-    <!-- <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button class="modal-close-btn" type="button">
           <svg
@@ -707,7 +858,7 @@
           <button class="review-form-submit-btn" type="submit">Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
 
     <!-- MOBILE MENU -->
 
@@ -736,66 +887,68 @@
             </li>
           </ul>
         </nav>
-        <address class="mobile-menu-address">
-          <ul class="mobile-menu-address-items">
-            <li>
-              <a class="address-item focused-link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
+        <div>
+          <address class="mobile-menu-address">
+            <ul class="mobile-menu-address-items">
+              <li>
+                <a class="address-item focused-link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li>
+                <a class="address-item" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+
+          <ul class="mobile-menu-social-list">
+            <li class="mobile-menu-social-list-item">
+              <a
+                class="mobile-menu-social-link"
+                href="https://www.instagram.com/"
+                target="_blank"
+                ><svg class="social-link" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li>
-              <a class="address-item" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
+            <li class="mobile-menu-social-list-item">
+              <a
+                class="mobile-menu-social-link"
+                href="https://www.twitter.com/"
+                target="_blank"
               >
+                <svg class="social-link" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-menu-social-list-item">
+              <a
+                class="mobile-menu-social-link"
+                href="https://www.facebook.com/"
+                target="_blank"
+              >
+                <svg class="social-link" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-menu-social-list-item">
+              <a
+                class="mobile-menu-social-link"
+                href="https://www.linkedin.com/"
+                target="_blank"
+              >
+                <svg class="social-link" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
-
-        <ul class="mobile-menu-social-list">
-          <li class="mobile-menu-social-list-item">
-            <a
-              class="mobile-menu-social-link"
-              href="https://www.instagram.com/"
-              target="_blank"
-              ><svg class="social-link" width="24" height="24">
-                <use href="./images/icons.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="mobile-menu-social-list-item">
-            <a
-              class="mobile-menu-social-link"
-              href="https://www.twitter.com/"
-              target="_blank"
-            >
-              <svg class="social-link" width="24" height="24">
-                <use href="./images/icons.svg#icon-twitter"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="mobile-menu-social-list-item">
-            <a
-              class="mobile-menu-social-link"
-              href="https://www.facebook.com/"
-              target="_blank"
-            >
-              <svg class="social-link" width="24" height="24">
-                <use href="./images/icons.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="mobile-menu-social-list-item">
-            <a
-              class="mobile-menu-social-link"
-              href="https://www.linkedin.com/"
-              target="_blank"
-            >
-              <svg class="social-link" width="24" height="24">
-                <use href="./images/icons.svg#icon-linkedin"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+        </div>
       </div>
     </div>
   </body>
